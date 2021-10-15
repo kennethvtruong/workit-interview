@@ -1,4 +1,5 @@
 import "./dashboardStyles.css";
+import { clinicData } from "./clinicData.js";
 
 function ClinicDashboard() {
   return (
@@ -9,7 +10,8 @@ function ClinicDashboard() {
 
       <div className="dashboard-content">
         {/* your code goes here */}
-        {/* feel free to add, remove, or update anything! */}
+        {/* add, remove, or update anything – does not have to be limited 
+          to this section, if there are other changes you want to make */}
       </div>
     </div>
   );

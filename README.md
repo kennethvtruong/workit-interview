@@ -8,20 +8,24 @@ To start: please **clone** this repository to make any changes. Please also make
 
 We would like to build a clinic overview page to view a list of our clinics. In the root repository, `clinic_dashboard.png` is the design that has been provided for you.
 
+To run this project locally, use `npm start`.
+
 ### Development notes
 
 - For the purposes of this assessment, you do not have to build the Nationwide tile
-- Ignore the "+" button to the top of the Clinic Dashboard
-- The information in the clinic tiles are links, but you can set them as `href="#"`
+- Ignore the "+" button at the top of the Clinic Dashboard
+- The information in the clinic tiles are links; you can set them as `href="#"`
 - Clinic data has been provided as an array of objects, and can be found in `src/clinicData.js`
 
 ### Design details
 
-Some aspects of the design have been pre-defined; anything not listed below is up to you.
+Some aspects of the design have been pre-defined; anything not listed below is up to you. Your final result may not look exactly like the image, and that is perfectly fine!
 
 - Padding between the tiles is 32px
-- Padding inside the tiles is 32px
+- Padding inside the tiles is 16px
+- The gray text and gray lines
 - You can use `Poppins` as the font family; it will not match the design exactly, but is fine for the assessment
+- The gray text and gray lines are `hsl(225, 9%, 91%)`
 - The links to the images are below
   - Details: https://storage.googleapis.com/workit-client-assets/icons_lib/right-round-dark-blue.svg
   - Manage: https://storage.googleapis.com/workit-client-assets/icons_lib/settings-dark-blue.svg
