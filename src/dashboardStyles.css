@@ -1,0 +1,25 @@
+.Clinic-Dashboard h1,
+.Clinic-Dashboard p,
+.Clinic-Dashboard a {
+  font-family: "Poppins", sans-serif;
+  color: hsl(205, 32%, 23%);
+}
+
+.Clinic-Dashboard h1 {
+  font-size: 1.2rem;
+}
+
+.Clinic-Dashboard p,
+.Clinic-Dashboard a {
+  font-size: 0.8rem;
+}
+
+.Clinic-Dashboard .dashboard-header {
+  padding: 32px;
+  background: white;
+}
+
+.Clinic-Dashboard .dashboard-content {
+  background: hsl(0, 0%, 95%);
+  min-height: 100vh;
+}
