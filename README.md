@@ -30,7 +30,7 @@ Some aspects of the design have been pre-defined; anything not listed below is u
   - Details: https://storage.googleapis.com/workit-client-assets/icons_lib/right-round-dark-blue.svg
   - Manage: https://storage.googleapis.com/workit-client-assets/icons_lib/settings-dark-blue.svg
   - Availabilities: https://storage.googleapis.com/workit-client-assets/icons_lib/calendar-dark-blue.svg
-  - https://storage.googleapis.com/workit-client-assets/icons_lib/calendar-booked-dark-blue.svg
+  - Calendar: https://storage.googleapis.com/workit-client-assets/icons_lib/calendar-booked-dark-blue.svg
 
 ## Questions?
 
