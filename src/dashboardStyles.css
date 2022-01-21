@@ -1,3 +1,14 @@
+@media (min-width: 820px) {
+  .Clinic-Dashboard .dashboard-content {
+    box-sizing: border-box;
+    background: hsl(0, 0%, 95%);
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 32px;
+    gap: 32px;
+  }
+}
 .Clinic-Dashboard h1,
 .Clinic-Dashboard p,
 .Clinic-Dashboard a {
@@ -9,9 +20,15 @@
   font-size: 1.2rem;
 }
 
+.Clinic-Dashboard h2 {
+  /* font-size: 1.2rem; */
+  font-weight: bold;
+}
+
 .Clinic-Dashboard p,
 .Clinic-Dashboard a {
-  font-size: 0.8rem;
+  font-size: calc(0.8rem + 0.1vw);
+  text-decoration: none;
 }
 
 .Clinic-Dashboard .dashboard-header {
@@ -20,6 +37,99 @@
 }
 
 .Clinic-Dashboard .dashboard-content {
+  box-sizing: border-box;
   background: hsl(0, 0%, 95%);
   min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 32px;
+  gap: 32px;
+}
+
+.Location-Card .card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding: 16px 16px 0px 16px;
+  box-sizing: border-box;
+  background-color: white;
+  min-height: 25vh;
+  min-width: 30vh;
+}
+
+.Location-Card .row {
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.Location-Card .options {
+  display: flex;
+  margin-top: 9px;
+  color: #555;
+  font-size: 0.8rem;
+  align-items: center;
+  width: 100%;
+  height: 17%;
+}
+
+.Location-Card .title-container {
+  position: relative;
+  height: 20%;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  padding: 0px 16px;
+  justify-content: space-between;
+  border-bottom: 1px solid hsl(225, 9%, 91%);
+}
+.Location-Card .options-container {
+  float: left;
+  font-family: "Poppins";
+  width: 100%;
+  height: 65%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.Location-Card .icon-container {
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Location-Card .icon {
+  margin-right: 5px;
+  margin-left: 2px;
+}
+.Location-Card .color-container {
+  position: relative;
+  height: 15%;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  padding: 0px 16px;
+  justify-content: space-between;
+}
+
+.Location-Card .title {
+  font-weight: bold;
+}
+@media (max-width: 800px) {
+  .Clinic-Dashboard h1 {
+    display: flex;
+    justify-content: center;
+  }
+  .Clinic-Dashboard .dashboard-content {
+    box-sizing: border-box;
+    background: hsl(0, 0%, 95%);
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 32px;
+    gap: 32px;
+  }
 }
